@@ -1,22 +1,89 @@
-.App {
+/* Generics*/
+* {
+  box-sizing: border-box;
+  margin:  0;
+  padding: 0;
+  background-color: #262833;
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a{
+  color:#333;
+  text-decoration: none;
+}
+
+button {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 8px;
+  width: 80px;
+  height: 32px;
+  border: 2px solid #3D4853;
+  border-radius: 6px;
+  font-size: .6rem;
+  line-height: 1.75rem;
+  color: #3d4853;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+
+input{
+  border: 2px solid #3D4853;
+  margin-top: 4px;
+  color:#333;
+  border-radius: 6px;
+  font-size: .8rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+
+textarea{
+  border: 2px solid #3D4853;
+  border-radius: 6px;
+  height: 80%;
+  width: 95%;
+  color:#333;
+
+}
+
+
+/* CLASSES*/
+.divShowingGradient{
+  border-radius: 12px
+}
+
+.center{
+  display: grid;
+  grid-template-rows: 25% 50% 25%;
+}
+
+.clrButton{
+  position: relative;
+  height: 1.5em;
+  width: 1.5em;
+  padding: .5em;
+  border-radius: .15em;
+  cursor: pointer;
+  background: transparent;
+  background: rgb(216, 159, 112);
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.divide{
+  margin-bottom: 20px;
 }
